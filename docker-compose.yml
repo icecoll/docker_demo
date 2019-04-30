@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  docker_demo:
+    build: .
+    ports:
+      - "3000:3000"
